@@ -13,9 +13,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 
 # Tell CMake where to find Boost
-set(BOOST_ROOT "/usr/local/boost_1_78_0")
-set(Boost_INCLUDE_DIRS "/usr/local/boost_1_78_0")
-set(BOOST_LIBRARY_DIRS "/usr/local/boost_1_78_0/stage/lib")
+# set(BOOST_ROOT "/usr/local/boost_1_78_0")
+# set(Boost_INCLUDE_DIRS "/usr/local/boost_1_78_0")
+# set(BOOST_LIBRARY_DIRS "/usr/local/boost_1_78_0/stage/lib")
 
 include_directories(${Boost_INCLUDE_DIRS})
 
